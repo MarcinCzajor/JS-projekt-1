@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Projekt1 POLSKI</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="logo"></div>
+      <div class="totalCounter-div">
+        <span id="totalCounter"></span>
+      </div>
+      <div class="input-main-container">
+        <div class="income-container">
+          <p>Przychody</p>
+          <form id="income-form">
+            <input
+              id="income-name"
+              class="form-control"
+              type="text"
+              placeholder="Wpisz przchód"
+            />
+            <input
+              id="income-amount"
+              class="form-control"
+              type="text"
+              placeholder="Wpisz kwotę"
+            />
+            <button id="form-submit" class="btn" type="submit">dodaj</button>
+          </form>
+          <div id="income-list-cont" class="income-list-cont">
+            <ul id="incomeList"></ul>
+          </div>
+          <div class="totalIncome">
+            Wszystkie Przychody: <span id="totalIncomeAmount"></span> zł
+          </div>
+        </div>
+        <div class="spend-container">
+          <p>Wydatki</p>
+          <form id="spend-form">
+            <input
+              id="spend-name"
+              class="form-control"
+              type="text"
+              placeholder="Wpisz wydatki"
+            />
+            <input
+              id="spend-amount"
+              class="form-control"
+              type="text"
+              placeholder="Wpisz kwotę"
+            />
+            <button id="form-submit" class="btn" type="submit">dodaj</button>
+          </form>
+          <div id="spend-list-cont" class="spend-list-cont">
+            <ul id="spendList"></ul>
+          </div>
+          <div class="totalSpend">
+            Wszystkie Wydatki: <span id="totalSpendAmount"></span> zł
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
