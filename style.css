@@ -123,6 +123,7 @@ li {
 .totalSpend {
 	font-size: 20px;
 	text-align: left;
+	display: contents;
 }
 
 #buttonEdit,
